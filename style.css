@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.3em;
+    color: black;
+}
+header{
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 200px;
+}
+.navigation a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: white;
+}
+
+.me {
+    display: flex;
+    margin-top: 45px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.me img {
+    height: 300px;
+}
+#about{
+    color: aqua;
+}
+
+
